@@ -182,4 +182,4 @@ export const getPokemonByType = async (
     hasNextPage: offset + limit < pokemonList.length,
     hasPrevPage: page > 1
   };
-};  
+};
